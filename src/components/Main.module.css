@@ -1,0 +1,50 @@
+.mainContainer {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(223, 237, 227, 1);
+}
+.logo {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.logoOne {
+  color: green;
+}
+.logoTwo {
+  color: #2d6a4f;
+}
+.featureSection {
+  margin-top: 150px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.featureCard {
+  background: white;
+  width: 300px;
+  padding: 35px 25px;
+  border-radius: 22px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.25s ease;
+}
+.featureCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+.featureCard h2 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.featureCard p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 15px;
+}

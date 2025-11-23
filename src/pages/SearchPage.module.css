@@ -1,0 +1,33 @@
+.searchSection{
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(223, 237, 227, 1);
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+.searchMap{
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 6px 8px #aeabab;
+}
+.mapIcon {
+  margin-top: 20px;   
+  margin-bottom: 10px; 
+}
+.searchWeather{
+  width: 400px;
+  height: 250px;
+  background-color:rgba(74,162,110,1);
+  border-radius: 10px;
+  box-shadow: 0 6px 8px #aeabab;
+
+}
+.WeatherIcon{
+  color: white;
+  justify-content: left;
+}

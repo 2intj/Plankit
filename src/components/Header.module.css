@@ -1,0 +1,44 @@
+.header {
+  background-color: white;
+  color: green;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #aeabab;
+  box-shadow: 0 6px 8px #aeabab;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  
+}
+.logoLink{
+  text-decoration: none;
+  color: inherit;
+}
+.logoText {
+  font-size: 40px;
+  font-weight: bold;
+}
+.logoHighlight {
+  color: #2d6a4f;
+}
+.navList {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.navItem {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navItem:hover {
+  text-decoration: underline;
+}
+.navList li a {
+  text-decoration: none;
+  color: inherit;
+}
