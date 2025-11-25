@@ -1,0 +1,20 @@
+.mapBox {
+   width: 650px;
+   height: 350px;
+   background: white;
+   border-radius: 12px;
+   box-shadow: 0 4px 10px #d1d1d1;
+   text-align: center;
+   padding-top: 20px;
+}
+
+.mapIcon {
+  margin-bottom: 8px;
+  color: #3f8d5d;
+}
+
+.mapSub {
+  margin-top: 10px;
+  color: #777;
+  font-size: 14px;
+}

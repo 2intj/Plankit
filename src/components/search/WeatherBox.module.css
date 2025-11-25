@@ -1,0 +1,20 @@
+.weatherBox {
+  width: 400px;
+  height: 350px;
+  background: #4aa26e;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #cfcfcf;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.weatherIcon {
+   margin-bottom: 5px;
+}
+
+.temp {
+   font-size: 38px;
+   font-weight: bold;
+   margin: 10px 0;
+}

@@ -1,0 +1,31 @@
+.section {
+  margin-top: 40px;
+  margin-left: 100px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.aiGrid {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aiCard {
+  width: 300px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px #d1d1d1;
+}
+
+.link {
+  color: #3f8d5d;
+  font-weight: bold;
+  cursor: pointer;
+}
