@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import SearchBar from './main/SearchBar';
-import styles from './Main.module.css';
+import SearchBar from '../../components/search/SearchBar';
+import styles from './MainPage.module.css';
 import { Plane, Map, Users } from 'lucide-react';
 
 
@@ -17,21 +17,21 @@ function Main() {
         <section className={styles.featureSection}>
           <Link to="/ai" className={styles.cardLink}>
             <div className={styles.featureCard}>
-              <Plane size={50} strokeWidth={1.5} />
+              <Plane className={styles.featureIcon} size={50} strokeWidth={1.5} />
               <h2>AI 여행 코스 추천</h2>
               <p>나이, 취향, 동행인 정보를 기반으로 맞춤 여행 일정을 제공합니다.</p>
             </div>
           </Link>
           <Link to="/search" className={styles.cardLink}>
             <div className={styles.featureCard}>
-              <Map size={50} strokeWidth={1.5} />
+              <Map className={styles.featureIcon} size={50} strokeWidth={1.5} />
               <h2>지도 기반 핫플레이스</h2>
               <p>실시간 날씨와 함께 인기 여행지 위치를 지도에서 바로 확인하세요.</p>
             </div>
           </Link>
           <Link to="/community" className={styles.cardLink}>
             <div className={styles.featureCard}>
-              <Users size={50} strokeWidth={1.5} />
+              <Users className={styles.featureIcon} size={50} strokeWidth={1.5} />
               <h2>여행 커뮤니티</h2>
               <p>다른 여행자들과 여행기를 공유하고 소통할 수 있습니다.</p>
             </div>

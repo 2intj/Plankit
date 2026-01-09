@@ -48,3 +48,14 @@
   line-height: 1.5;
   font-size: 15px;
 }
+.featureIcon {
+  color: #6bbf59;          /* 연한 초록색 */
+  margin-bottom: 12px;
+}
+.featureCard:hover .featureIcon {
+  color: #3fa34d;          /* hover 시 조금 진한 초록 */
+  transform: scale(1.1);
+}
+.featureIcon {
+  transition: color 0.2s ease, transform 0.2s ease;
+}

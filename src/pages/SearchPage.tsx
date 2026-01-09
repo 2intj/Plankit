@@ -14,9 +14,9 @@ function SearchPage() {
         <MapBox />
         <WeatherBox />
       </section>
-      <AiCourseList />
-      <HotPlaceList />
-      <PostList />
+        <AiCourseList />
+        <HotPlaceList />
+        <PostList />
     </div>
 
   );

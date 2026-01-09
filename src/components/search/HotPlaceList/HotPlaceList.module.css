@@ -1,17 +1,19 @@
 .section {
   margin-top: 40px;
-  margin-left: 100px;
+  max-width: 1200px;   /* 카드 3개 기준 폭 */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .sectionTitle {
   font-size: 22px;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .placeGrid {
   display: flex;
-  gap: 80px;
+  gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -19,9 +21,12 @@
 .placeCard {
   width: 300px;
   background: white;
+  padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 10px #d1d1d1;
   overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .placeImage {
   width: 100%;

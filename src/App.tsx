@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "components/Header";
-import Main from "components/Main";
-import Footer from "components/Footer";
+import Header from "./components/layout/Header";
+import Main from "./pages/Main";
+import Footer from "./components/layout/Footer";
 
 import SearchPage from "./pages/SearchPage";
 import AiCoursePage from "./pages/AiCoursePage";
